@@ -2,7 +2,7 @@ package com.example.demoRestEx;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("lap1")
 public class Laptop {
 
 	int id;

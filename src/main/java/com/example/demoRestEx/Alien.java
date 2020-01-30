@@ -1,6 +1,7 @@
 package com.example.demoRestEx;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -12,6 +13,7 @@ public class Alien {
 	String name;
 	
 	@Autowired
+	@Qualifier("lap1")
 	Laptop laptop;
 	
 	public Alien() {
